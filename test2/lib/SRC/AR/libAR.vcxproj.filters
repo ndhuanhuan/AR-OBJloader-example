@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fd65039b-bc9a-4fc8-a298-334529f5d9ee}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="arDetectMarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arDetectMarker2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arGetCode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arGetMarkerInfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arGetTransMat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arGetTransMat2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arGetTransMat3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arGetTransMatCont.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arLabeling.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arUtil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mAlloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mAllocDup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mAllocInv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mAllocMul.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mAllocTrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mAllocUnit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mDet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mDisp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mDup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mFree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mInv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mMul.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mPCA.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mSelfInv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mTrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mUnit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paramChangeSize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paramDecomp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paramDisp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paramDistortion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paramFile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paramGet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vAlloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vDisp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vFree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vHouse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vInnerP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vTridiag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

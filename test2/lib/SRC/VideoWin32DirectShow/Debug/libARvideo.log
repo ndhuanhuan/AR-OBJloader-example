@@ -1,0 +1,31 @@
+﻿Build started 4/18/2014 9:37:59 AM.
+     1>Project "C:\Users\Davis\Desktop\ARToolKit\lib\SRC\VIDEOWIN32DIRECTSHOW\libARvideo.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\libARvideo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Applications\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /I..\..\..\DSVL\src /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBARVIDEO_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt videoWin32DirectShow.cpp
+         videoWin32DirectShow.cpp
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\libARvideo.dll.embed.manifest.res" .\Debug\libARvideo_manifest.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Davis\Desktop\ARToolKit\lib\SRC\VIDEOWIN32DIRECTSHOW\.\Debug\libARvideo.dll) does not match the Linker's OutputFile property value (C:\Users\Davis\Desktop\ARToolKit\bin\libARvideod.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(libARvideo) does not match the Linker's OutputFile property value (libARvideod). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Applications\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\libARvideod.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\lib /LIBPATH:..\..\..\DSVL\lib DSVLd.lib comsupp.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:".\Debug\libARvideo.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Davis\Desktop\ARToolKit\lib\SRC\VIDEOWIN32DIRECTSHOW\Debug\libARvideo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\lib\libARvideod.lib" /MACHINE:X86 /DLL .\Debug\libARvideo.dll.embed.manifest.res
+         .\Debug\videoWin32DirectShow.obj
+            Creating library ..\..\..\lib\libARvideod.lib and object ..\..\..\lib\libARvideod.exp
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\libARvideo.dll.embed.manifest" /manifest .\Debug\libARvideo.dll.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\libARvideo.dll.embed.manifest.res" .\Debug\libARvideo_manifest.rc 
+       LinkEmbedManifest:
+         D:\Applications\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin\libARvideod.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\lib /LIBPATH:..\..\..\DSVL\lib DSVLd.lib comsupp.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /MANIFEST /ManifestFile:".\Debug\libARvideo.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Davis\Desktop\ARToolKit\lib\SRC\VIDEOWIN32DIRECTSHOW\Debug\libARvideo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\lib\libARvideod.lib" /MACHINE:X86 /DLL .\Debug\libARvideo.dll.embed.manifest.res
+         .\Debug\videoWin32DirectShow.obj
+            Creating library ..\..\..\lib\libARvideod.lib and object ..\..\..\lib\libARvideod.exp
+         libARvideo.vcxproj -> C:\Users\Davis\Desktop\ARToolKit\lib\SRC\VIDEOWIN32DIRECTSHOW\.\Debug\libARvideo.dll
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\libARvideo.unsuccessfulbuild".
+         Touching ".\Debug\libARvideo.lastbuildstate".
+     1>Done Building Project "C:\Users\Davis\Desktop\ARToolKit\lib\SRC\VIDEOWIN32DIRECTSHOW\libARvideo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.52
